@@ -22,7 +22,7 @@
 - Russian and English interface, local diagnostics and third-party notices.
 - Signed update verification for the installed version; Portable updates manually.
 
-Download only your own content or material you are authorised to save. Follow the source service's terms. A public link does not grant permission; LinkToFile does not bypass DRM or paywalls. PRO purchases and advertising are not available in this beta.
+All current features are free. Download only your own content or material you are authorised to save. Follow the source service's terms. A public link does not grant permission; LinkToFile does not bypass DRM or paywalls.
 
 ## Requirements and installation
 
@@ -59,9 +59,9 @@ These are real screenshots of a local **0.1.4 preview**, captured with an empty 
 
 ## Support and documents
 
-[Website](https://linktofile.ru) · [Release notes](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.3-beta) · [Beta terms](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/BETA-TERMS.txt) · [Third-party notices](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/THIRD-PARTY-NOTICES.md)
+[Website](https://linktofile.ru) · [Beta website](https://linktofile-beta.nikitacreator.chatgpt.site/) · [Release notes](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.3-beta) · [Beta terms](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/BETA-TERMS.txt) · [Third-party notices](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/THIRD-PARTY-NOTICES.md)
 
-Support and private security reports: [nikitacreatordeveloper@gmail.com](mailto:nikitacreatordeveloper@gmail.com). Include your app version, Windows version and short reproduction steps. Review diagnostics first and remove personal URLs, paths, account information and secrets. Send security details privately.
+Feedback and private security reports: [nikitacreatordeveloper@gmail.com](mailto:nikitacreatordeveloper@gmail.com). Include your app version, Windows version and short reproduction steps. Review diagnostics first and remove personal URLs, paths, account information and secrets. Send security details privately. Development is paused while demand is assessed from downloads and feedback; future features and guaranteed support are not promised.
 
 Usage, privacy and license documents in Russian and English are also bundled in the application's `licenses` folder and available in Settings. Queue, history and settings are stored locally; source sites and image servers receive network requests. See the bundled privacy document for clipboard and update behaviour.
 
