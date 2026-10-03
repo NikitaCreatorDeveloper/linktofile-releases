@@ -6,11 +6,11 @@
 
 [English](README.md) · **Русский**
 
-### [Скачать для Windows — Setup](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/LinkToFile-0.1.3-Setup-x64.exe)
+### [Скачать для Windows — Setup](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/LinkToFile-0.1.4-Setup-x64.exe)
 
-[Установщик Setup (.exe)](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/LinkToFile-0.1.3-Setup-x64.exe) · [Portable (.zip)](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/LinkToFile-0.1.3-windows-x64-portable.zip) · [Все релизы](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases)
+[Установщик Setup (.exe)](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/LinkToFile-0.1.4-Setup-x64.exe) · [Portable (.zip)](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/LinkToFile-0.1.4-windows-x64-portable.zip) · [Все релизы](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases)
 
-**Доступная версия: 0.1.3 Beta**, опубликована 18 сентября 2026 года. Бесплатная бета с интерфейсом на русском и английском. Это ранний выпуск: сайты-источники могут меняться, поэтому отдельные ссылки могут перестать работать. Ссылки выше ведут на опубликованную версию.
+**Доступная версия: 0.1.4 Beta**, опубликована 3 октября 2026 года. Бесплатная бета с интерфейсом на русском и английском. Это ранний выпуск: сайты-источники могут меняться, поэтому отдельные ссылки могут перестать работать. Ссылки выше ведут на опубликованную версию.
 
 ## Возможности опубликованной беты
 
@@ -29,40 +29,42 @@
 Windows 10 или 11, **64-разрядная x64**, и Microsoft Edge WebView2 Runtime. Для анализа и загрузки нужен интернет. Оставьте место для готового файла и временных отдельных дорожек. Устанавливать Python, Node.js, yt-dlp и FFmpeg отдельно не требуется.
 
 1. Скачайте **Setup** для обычной установки либо **Portable** для запуска из распакованной папки.
-2. Сверьте SHA-256 файла с [SHA256SUMS.txt](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/SHA256SUMS.txt) этого же выпуска.
+2. Сверьте SHA-256 файла с [SHA256SUMS.txt](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/SHA256SUMS.txt) этого же выпуска.
 3. Setup проверяет наличие WebView2 и может загрузить его установочный bootstrapper. Для Portable распакуйте **весь ZIP**, сохраните рядом папки инструментов и лицензий, затем запустите `LinkToFile.exe`. WebView2 должен быть доступен заранее.
 4. Вставьте разрешённую ссылку, проверьте форматы, выберите папку и начните загрузку.
 
-Установка на чистой Windows и работа без среды разработчика требуют отдельной приёмки; эта страница не заявляет об их независимой сертификации.
+На ПК разработчика прошли запуск Setup и Portable, ручное обновление установщиком 0.1.3→0.1.4 и загрузка разрешённого видео с полным декодированием видео/звука встроенными инструментами. Интерактивная приёмка в приложении, чистая Windows и полный цикл встроенного обновления пока не подтверждены.
 
 ## Проверка файлов и предупреждения Windows
 
-У опубликованных **установщика и приложения 0.1.3 нет подписи издателя Windows Authenticode**. SmartScreen может показать **Unknown Publisher / Unknown app**. Подпись обновлений Tauri проверяет пакет обновления, но не подтверждает доверенного издателя Windows и не гарантирует отсутствие предупреждений. Оставляйте защиту Windows включённой.
+У опубликованных **установщика и приложения 0.1.4 нет подписи издателя Windows Authenticode**. SmartScreen может показать **Unknown Publisher / Unknown app**. Подпись обновлений Tauri проверяет пакет обновления, но не подтверждает доверенного издателя Windows и не гарантирует отсутствие предупреждений. Оставляйте защиту Windows включённой.
 
 В PowerShell укажите путь к своему скачанному файлу:
 
 ```powershell
-Get-FileHash -LiteralPath '.\LinkToFile-0.1.3-Setup-x64.exe' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\LinkToFile-0.1.4-Setup-x64.exe' -Algorithm SHA256
 ```
 
 Сравните результат с `SHA256SUMS.txt` **того же релиза**. Совпадение хеша подтверждает совпадение байтов с эталоном, но не доказывает безопасность файла. Перед запуском проверьте файл локальным антивирусом. Проверка всеми антивирусами не заявляется.
 
 Установленная версия использует настроенный beta-канал с проверкой подписи обновлений. Перед обновлением завершите загрузки или поставьте их на паузу. Для Portable скачайте новый опубликованный ZIP и распакуйте его в отдельную папку; сохраните старую папку до проверки настроек и файлов.
 
-## Preview 0.1.4 — ещё не опубликован
+## Скриншоты интерфейса
 
-Это реальные скриншоты локального **preview 0.1.4** с пустым демонстрационным профилем. Они показывают разрабатываемый интерфейс; **по ссылкам выше по-прежнему доступна 0.1.3 Beta**. Дата нового выпуска не обещается.
+Это реальные снимки локального **preview 0.1.4 от 1 октября** с пустым демонстрационным профилем. Финальные пакеты 0.1.4 собраны заново 3 октября; снимки не сделаны с этих точных финальных бинарников.
 
-<p><img src="assets/screenshots/preview-0.1.4-home-en.jpg" alt="Неопубликованный preview LinkToFile 0.1.4: пустой главный экран EN" width="700"></p>
-<p><img src="assets/screenshots/preview-0.1.4-settings-en.jpg" alt="Неопубликованный preview LinkToFile 0.1.4: настройки EN и версия" width="700"></p>
-<p><img src="assets/screenshots/preview-0.1.4-settings-ru.jpg" alt="Неопубликованный preview LinkToFile 0.1.4: настройки RU и версия" width="700"></p>
+<p><img src="assets/screenshots/preview-0.1.4-home-en.jpg" alt="Preview LinkToFile 0.1.4: пустой главный экран EN" width="700"></p>
+<p><img src="assets/screenshots/preview-0.1.4-settings-en.jpg" alt="Preview LinkToFile 0.1.4: настройки EN и версия" width="700"></p>
+<p><img src="assets/screenshots/preview-0.1.4-settings-ru.jpg" alt="Preview LinkToFile 0.1.4: настройки RU и версия" width="700"></p>
 
 ## Поддержка и документы
 
-[Сайт](https://linktofile.ru) · [Сайт беты](https://linktofile-beta.nikitacreator.chatgpt.site/) · [Описание релиза](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.3-beta) · [Условия беты](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/BETA-TERMS.txt) · [Уведомления сторонних компонентов](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/THIRD-PARTY-NOTICES.md)
+[Сайт](https://linktofile.ru) · [Сайт беты](https://linktofile-beta.nikitacreator.chatgpt.site/) · [Описание релиза](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.4-beta) · [Условия беты](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/BETA-TERMS.txt) · [Уведомления сторонних компонентов](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.4-beta/THIRD-PARTY-NOTICES.md)
 
 Отзывы и приватные сообщения о безопасности: [nikitacreatordeveloper@gmail.com](mailto:nikitacreatordeveloper@gmail.com). Укажите версию приложения, версию Windows и короткие шаги воспроизведения. Перед отправкой диагностики удалите личные ссылки, пути, сведения об аккаунтах и секреты. Сведения об уязвимостях направляйте приватно. Разработка приостановлена: спрос оценивается по скачиваниям и отзывам. Новые функции и гарантированная поддержка не обещаются.
 
 Условия использования, политика конфиденциальности и лицензии на русском и английском входят в папку `licenses` и доступны в настройках приложения. Очередь, история и настройки хранятся локально; сайты-источники и серверы изображений получают сетевые запросы. Поведение буфера обмена и обновлений описано во встроенной политике конфиденциальности.
 
 Этот публичный репозиторий содержит пользовательскую документацию и файлы распространения. Исходники LinkToFile остаются приватными. Действуют лицензия бесплатной беты и отдельные лицензии сторонних компонентов; лицензия открытого исходного кода для оригинального приложения здесь не предоставляется.
+
+Файлы выпуска: Setup — **79 724 271 байт**, SHA-256 `cb5ce0e5465a7f0d366fa5d5c646a3f3f740513e5c41bf9a455ecb281dad9a8f`; Portable — **101 070 306 байт**, SHA-256 `13e32b2b9535d30912b4e6c1d63e98a81a5d0d87a29b2dfe6b26e13f39a50d21`.
