@@ -22,7 +22,7 @@
 - Интерфейс RU/EN, локальная диагностика и документы сторонних компонентов.
 - Проверка подписи обновлений установленной версии; Portable обновляется вручную.
 
-Скачивайте собственные материалы или материалы, на сохранение которых у вас есть разрешение. Соблюдайте условия сайта-источника. Публичная ссылка не даёт права на скачивание; LinkToFile не обходит DRM и платный доступ. Покупка PRO и реклама в этой бете недоступны.
+Все текущие функции бесплатны. Скачивайте собственные материалы или материалы, на сохранение которых у вас есть разрешение. Соблюдайте условия сайта-источника. Публичная ссылка не даёт права на скачивание; LinkToFile не обходит DRM и платный доступ.
 
 ## Требования и установка
 
@@ -59,9 +59,9 @@ Get-FileHash -LiteralPath '.\LinkToFile-0.1.3-Setup-x64.exe' -Algorithm SHA256
 
 ## Поддержка и документы
 
-[Сайт](https://linktofile.ru) · [Описание релиза](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.3-beta) · [Условия беты](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/BETA-TERMS.txt) · [Уведомления сторонних компонентов](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/THIRD-PARTY-NOTICES.md)
+[Сайт](https://linktofile.ru) · [Сайт беты](https://linktofile-beta.nikitacreator.chatgpt.site/) · [Описание релиза](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/tag/v0.1.3-beta) · [Условия беты](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/BETA-TERMS.txt) · [Уведомления сторонних компонентов](https://github.com/NikitaCreatorDeveloper/linktofile-releases/releases/download/v0.1.3-beta/THIRD-PARTY-NOTICES.md)
 
-Поддержка и приватные сообщения о безопасности: [nikitacreatordeveloper@gmail.com](mailto:nikitacreatordeveloper@gmail.com). Укажите версию приложения, версию Windows и короткие шаги воспроизведения. Перед отправкой диагностики удалите личные ссылки, пути, сведения об аккаунтах и секреты. Сведения об уязвимостях направляйте приватно.
+Отзывы и приватные сообщения о безопасности: [nikitacreatordeveloper@gmail.com](mailto:nikitacreatordeveloper@gmail.com). Укажите версию приложения, версию Windows и короткие шаги воспроизведения. Перед отправкой диагностики удалите личные ссылки, пути, сведения об аккаунтах и секреты. Сведения об уязвимостях направляйте приватно. Разработка приостановлена: спрос оценивается по скачиваниям и отзывам. Новые функции и гарантированная поддержка не обещаются.
 
 Условия использования, политика конфиденциальности и лицензии на русском и английском входят в папку `licenses` и доступны в настройках приложения. Очередь, история и настройки хранятся локально; сайты-источники и серверы изображений получают сетевые запросы. Поведение буфера обмена и обновлений описано во встроенной политике конфиденциальности.
 
